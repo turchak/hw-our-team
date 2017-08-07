@@ -1,0 +1,23 @@
+//header
+.header {
+  padding-top: 45px;
+  text-transform: uppercase;
+  text-align: center;
+
+  &__title {
+    margin: 0;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color:  #898f8f;
+  }
+  &__logo {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 66px;
+    color: $c-yellow;
+  }
+}

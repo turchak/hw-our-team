@@ -1,0 +1,90 @@
+//main
+
+.main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 115px;
+  &__img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__photo {
+    position: absolute;
+    border: 1px solid $c-yellow;
+  }
+  &__info {
+    width: 415px;
+    margin-left: 165px;
+    text-align: center;
+  }
+  &__title {
+    font-family: Roboto, sans-serif;
+    color:  $c-dark-gray;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 24px;
+  }
+  &__position {
+    margin-top: 65px;
+    font-family: Raleway, sans-serif;
+    color:  $c-dark-gray;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+  &__social {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    &-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 26px;
+      height: 26px;
+      margin: 5px;
+      border-radius: 50%;
+      border-width: 2px;
+      border-color:  $c-light-gray;
+      border-style: solid;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 14px;
+
+      &--facebook {
+        color: $c-light-gray;
+      }
+      &--twitter {
+        color: $c-light-gray;
+      }
+      &--google {
+        color: $c-light-gray;
+      }
+      &--linkedin {
+        color: $c-light-gray;
+      }
+    }
+  }
+  &__descrioption {
+    font-family: Raleway, sans-serif;
+    color:  #333333;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  &__profile {
+    width: 118px;
+    height: 22px;
+    border: 1px solid $c-yellow;
+    text-decoration: none;
+    font-family: OpenSans, sans-serif;
+    color: $c-dark-gray;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+}
